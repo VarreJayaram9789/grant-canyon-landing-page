@@ -52,10 +52,10 @@ export default function Footer() {
                 <a href="#">Organizations</a>
               </li>
               <li>
-                <a href="#">Funding</a>
+               
               </li>
               <li>
-                <a href="#">CAwards</a>
+                
               </li>
               <li>
                 <a href="#">Donors</a>

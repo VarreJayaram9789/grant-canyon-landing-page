@@ -6,17 +6,17 @@ const cards = [
   {
     id: 1,
     image: discover_1,
-    title: "Grants",
+    title: "Articles",
   },
   {
     id: 2,
     image: discover_2,
-    title: "Consortium",
+    title: "Health",
   },
   {
     id: 3,
     image: discover_3,
-    title: "Partners",
+    title: "Help",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function Discover() {
     <section className="my-14">
       <Container>
         <div>
-          <SectionTitle title="discover" />
+          <SectionTitle title="HEALTH AID" />
           <div className="grid lg:grid-cols-3 mt-8 sm:grid-cols-2 grid-cols-1 place-items-center lg:gap-14 gap-4">
             {cards.map((card) => (
               <DiscoverCard card={card} key={card.id} />

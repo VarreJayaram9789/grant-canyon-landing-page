@@ -21,22 +21,25 @@ export default function Front() {
             )}
             {!searchBar && (
               <button className="sm:text-[20px] bg-button-primary text-[#6C6252] hover:bg-button-primary-hover transition-colors sm:px-10 px-3 py-3 rounded-md capitalize sm:w-auto w-full font-bold">
-                Start Discovery
+                Topics
               </button>
             )}
 
             {!searchBar && (
               <button
                 onClick={() => setSearchBar(!searchBar)}
-                className="sm:text-[20px] text-white sm:px-10 px-3 py-3 rounded-md border-[1px] border-white capitalize sm:w-auto w-full font-bold"
-              >
-                Find funding
+                className="sm:text-[20px] bg-button-primary text-[#6C6252] hover:bg-button-primary-hover transition-colors sm:px-10 px-3 py-3 rounded-md capitalize sm:w-auto w-full font-bold">
+              
+                Find Care
               </button>
             )}
           </div>
           <article className="lg:flex hidden items-end absolute top-[30%] right-0 w-[30%] border-l-2 h-1/2 px-2 border-l-white">
-            <div className="text-white text-[26px] w-[80%]">
-              Find the right funding, partners and projects for climate change
+            <div className="sm:text-[20px] bg-button-primary text-[#6C6252] hover:bg-button-primary-hover transition-colors sm:px-10 px-3 py-3 rounded-md capitalize sm:w-auto w-full font-bold">
+              
+
+            Connect Caretakers with Endeavors for Love,Care and Support
+
             </div>
           </article>
         </div>
